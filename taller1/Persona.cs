@@ -1,8 +1,20 @@
 ﻿using System;
 
-public class Persona
+namespace Geneticos
 {
-	public Class1()
-	{
-	}
+    public class Persona
+    {
+	
+        int edad;
+        string nombre;
+        string apellido;
+        int diaNacimiento;
+        int mesNacimiento;
+        int anioNacimiento;
+
+        public int Edad { get; set; }
+        public String Nombre { get; set; }
+
+
+    }
 }
